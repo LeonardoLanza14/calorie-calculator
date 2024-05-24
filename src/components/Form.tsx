@@ -63,7 +63,7 @@ const Form = ({ dispatch, state }: FormProps) => {
             <div
                 className="w-full mx-auto relative overflow-hidden z-10 dark:border-white border bg-white dark:bg-transparent p-8 rounded-lg shadow-md before:w-24 before:h-24 before:absolute before:bg-orange-500 before:rounded-xl before:-z-10 before:blur-2xl after:w-32 after:h-32 after:absolute after:bg-lime-500 after:rounded-full after:-z-10 after:blur-xl after:top-24 after:-right-12"
             >
-                <h2 className="text-2xl text-sky-900 dark:text-white font-bold mb-6">Update Your Profile</h2>
+                <h2 className="text-2xl text-sky-900 dark:text-white font-bold mb-6 uppercase">Ingresar Datos</h2>
 
                 <form onSubmit={handleSubmit}>
                     <div className="mb-4">
